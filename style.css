@@ -1,0 +1,73 @@
+* {
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.centered {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+
+#name {
+	color:#e2cca3;
+	background-color: rgba(20,25,25,0.55);
+	font-weight: 600;
+	font-size: 7vw;
+}
+
+.footer {
+	background-color:#cfd3d6;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.footer p {
+	font-weight: 900;
+}
+
+.footer p a {
+	font-weight: 300;
+}
+
+a.nounderline {
+	text-decoration:none
+}
+
+a.hoverlink:hover {
+	color:#23272A !important;
+}
+
+.certstext p{
+	font-weight: 500;
+}
+
+.code{
+	font-weight: 500;
+	background-color: #dbdbdb;
+}
+
+.variable{
+	font-weight: 500;
+	font-style: italic;
+	color: #e83c3c;
+}
+
+.bg{
+	background-image: url("https://source.unsplash.com/featured/2048x1011?winter,tech");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
